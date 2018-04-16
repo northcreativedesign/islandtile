@@ -1,0 +1,169 @@
+---
+heroheader: Tile
+herosub: Adding dynamic textures and colors to a variety of spaces.
+daltileheader: Daltile Flooring
+shawheader: Shaw Flooring
+americanheader: American Olean
+tilelogo_one: /assets/img/shawlogo.png
+tilelogo_two: /assets/img/daltile_logo.png
+tilelogo_three: /assets/img/emser_logo.png
+tilelogo_four: /assets/img/american_olean.png
+tilelogo_five: /assets/img/cronin_logo.png
+tilelogo_six: /assets/img/wanke_cascade.png
+tilelogo_seven:
+tilelogo_eight:
+tilelogo_nine:
+tilelogo_ten:
+---
+
+
+<section id="tile-hero">
+  <div class="container">
+    <div class="row">
+      <div class="tilehero">
+        <div class="productheader">
+          <h1>{{heroheader}}</h1>
+          <h3>{{herosub}}</h3>
+        </div>
+      </div>
+      <div class="small-12 triangle">
+       <img src="{{root}}assets/img/triangle.png" alt="triangle" class="center-block">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="productheader2">
+<div class="container">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>Browse Our National Brands</h1>
+      <p>Click below to view their online catalog</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="tile-brands">
+  <div class="container">
+    <div class="row">
+      <div class="small-4 columns shaw-tile-brand">
+        <a href="https://shawfloors.com" target="_blank"><img src="{{tilelogo_one}}" alt="Shaw Flooring"></a>
+      </div>
+      <div class="small-4 columns daltile-tile-brand">
+        <a href="https://www.daltile.com/" target="_blank"><img src="{{tilelogo_two}}" alt=""></a>
+      </div>
+      <div class="small-4 columns emser-tile-brand">
+        <a href="https://www.emser.com/" target="_blank"><img src="{{tilelogo_three}}" alt=""></a>
+      </div>
+    </div>
+    <div class="row tile-brand-bottomrow">
+      <div class="small-4 columns american-tile-brand">
+        <a href="https://americanolean.com/" target="_blank"><img src="{{tilelogo_four}}" alt=""></a>
+      </div>
+      <div class="small-4 columns">
+        <a href="http://www.cronincompany.com/" target="_blank"><img src="{{tilelogo_five}}" alt=""></a>
+      </div>
+      <div class="small-4 columns">
+        <a href="http://www.wanke.com/" target="_blank"><img src="{{tilelogo_six}}" alt=""></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Product Grid Template -->
+
+<section id="productheader2">
+<div class="container">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>A Variety Of Color &amp; Style Combinations</h1>
+      <p>Samples Avaliable</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Daltile Collection -->
+<section class="productlist-section">
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>{{daltileheader}}</h1>
+      </div>
+    </div>
+    <div class="row" data-equalizer>
+      {{#each tile.daltile}}
+      <div class="medium-4 large-3 end small-6 columns" data-equalizer-watch>
+        <div class="product-sample">
+          <a href="{{link}}"><img src="{{image}}" alt="" width="300px"></a>
+          <div class="row">
+            <div class="small-8 columns">
+              <p>{{name}}</p>
+            </div>
+            <div class="small-4 columns">
+              <p>{{colors}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+<!-- Shaw Flooring Collection -->
+<section class="productlist-section">
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>{{shawheader}}</h1>
+      </div>
+    </div>
+    <div class="row" data-equalizer>
+      {{#each tile.shawflooring}}
+      <div class="medium-4 large-3 end small-6 columns" data-equalizer-watch>
+        <div class="product-sample">
+          <a href="{{link}}"><img src="{{image}}" alt="" width="300px"></a>
+          <div class="row">
+            <div class="small-8 columns">
+              <p>{{name}}</p>
+            </div>
+            <div class="small-4 columns">
+              <p>{{colors}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+<!-- American Olean Collection -->
+<section class="productlist-section">
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>{{americanheader}}</h1>
+      </div>
+    </div>
+    <div class="row" data-equalizer>
+      {{#each tile.americanolean}}
+      <div class="medium-4 large-3 end small-6 columns" data-equalizer-watch>
+        <div class="product-sample">
+          <a href="{{link}}"><img src="{{image}}" alt="" width="300px"></a>
+          <div class="row">
+            <div class="small-8 columns">
+              <p>{{name}}</p>
+            </div>
+            <div class="small-4 columns">
+              <p>{{colors}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

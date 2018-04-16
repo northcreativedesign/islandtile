@@ -1,0 +1,82 @@
+
+// Font Import
+
+@font-face {
+	font-family: LatoLight;
+	src:url(../fonts/Lato-Light.ttf)
+}
+
+@font-face {
+	font-family: LatoReg;
+	src:url(../fonts/Lato-Regular.ttf)
+}
+
+@font-face {
+	font-family: LatoMed;
+	src:url(../fonts/Lato-Medium.ttf)
+}
+
+@font-face {
+	font-family: LatoBold;
+	src:url(../fonts/Lato-Bold.ttf)
+}
+
+@font-face {
+	font-family: OswaldBold;
+	src:url(../fonts/Oswald-Bold.otf)
+}
+
+@font-face {
+	font-family: OswaldLight;
+	src:url(../fonts/Oswald-Light.otf)
+}
+
+@font-face {
+	font-family: OswaldRegular;
+	src:url(../fonts/Oswald-Regular.otf)
+}
+
+@font-face {
+	font-family: OswaldStencil;
+	src:url(../fonts/Oswald-Stencil.otf)
+}
+
+
+
+@mixin tablet {
+    @media (min-width: #{$tablet}) and (max-width: #{$desktop}) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+@mixin tabletport {
+    @media (min-width: #{$tablet}) and (max-width: #{$desktop}) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+@mixin mobileland {
+    @media (max-width: #{$mobile}) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+@mixin mobileport {
+    @media (max-width: #{$mobile}) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+        @content;
+    }
+}
+
+$desktop: 1200px;
+$laptop: 992px;
+$tablet: 800px;
+$mobile: 800px;
+
+// Background Hero Mixin
+
+@mixin heroimage ($imgpath, $postion: center, $backgroundsize: cover, $height: 567px) {
+  background: url($imgpath);
+  background-position: $postion;
+  height: $height;
+  background-size: $backgroundsize;
+}

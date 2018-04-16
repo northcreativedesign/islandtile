@@ -1,0 +1,37 @@
+.gallery-hero {
+
+  margin-top: 50px;
+
+  @include heroimage('../img/gallery_hero.png');
+  @include breakpoint(small only) {
+    margin-top: 0px;
+    height: 50vh;
+  }
+}
+
+#gallery-header {
+
+  h1 {
+    font-size: 3rem;
+    font-family: $latoreg;
+  }
+
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+
+  @include breakpoint(small only) {
+    margin-top: 20px;
+  }
+
+  hr {
+    display: block;
+    margin: 0 auto;
+    width: 21rem;
+    border: 0.1rem solid #000000;
+  }
+
+}
+
+#gallery-lightbox {
+  margin-top: 5rem;
+}

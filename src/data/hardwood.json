@@ -1,0 +1,120 @@
+{
+  "manningtonhardwood": [
+    {
+      "name": "American Hickory",
+      "colors": "3 Colors",
+      "image": "../assets/img/products/mannington/man_americanhickory.jpg",
+      "link": "../products/hardwood/mannington/american_hickory.html"
+    },
+    {
+      "name": "American Maple",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/mannington/man_americanmaple.jpg",
+      "link": "../products/hardwood/mannington/american_maple.html"
+    },
+    {
+      "name": "American Oak",
+      "colors": "8 Colors",
+      "image": "../assets/img/products/mannington/man_americanoak.jpg",
+      "link": "../products/hardwood/mannington/american_oak.html"
+    },
+    {
+      "name": "American Walnut",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_americanwalnut.jpg",
+      "link": "../products/hardwood/mannington/american_walnut.html"
+    },
+    {
+      "name": "Blue Ridge Hickory",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/mannington/man_blueridge.jpg",
+      "link": "../products/hardwood/mannington/blue_ridge.html"
+    },
+    {
+      "name": "Harrington Oak",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/mannington/man_harringtonoak.jpg",
+      "link": "../products/hardwood/mannington/harrington_oak.html"
+    },
+    {
+      "name": "Jamestown Oak",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/mannington/man_jamestown.jpg",
+      "link": "../products/hardwood/mannington/james_oak.html"
+    },
+    {
+      "name": "Madison Maple",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/mannington/man_madisonmaple.jpg",
+      "link": "../products/hardwood/mannington/madison_maple.html"
+    },
+    {
+      "name": "Montana Oak",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/mannington/man_montana.jpg",
+      "link": "../products/hardwood/mannington/montana_oak.html"
+    },
+    {
+      "name": "Oregon Oak",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/mannington/man_oregon.jpg",
+      "link": "../products/hardwood/mannington/oregon_oak.html"
+    },
+    {
+      "name": "Madison Oak",
+      "colors": "6 Colors",
+      "image": "../assets/img/products/mannington/man_madisonoak.jpg",
+      "link": "../products/hardwood/mannington/madison_oak.html"
+    },
+    {
+      "name": "Andean Pecan",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_andeanpecan.jpg",
+      "link": "../products/hardwood/mannington/adean_pecan.html"
+    },
+    {
+      "name": "Brazzillian Cherry",
+      "colors": "6 Colors",
+      "image": "../assets/img/products/mannington/man_brazzilliancherry.jpg",
+      "link": "../products/hardwood/mannington/brazzillian_cherry.html"
+    },
+    {
+      "name": "Mayan Pecan",
+      "colors": "6 Colors",
+      "image": "../assets/img/products/mannington/man_mayanpecan.jpg",
+      "link": "../products/hardwood/mannington/mayan_pecan.html"
+    }
+  ],
+  "bamboohardwood": [
+    {
+      "name": "Clove",
+      "colors": "1 Color",
+      "image": "../assets/img/products/bamboo/clove.png",
+      "link": "../products/hardwood/bamboo/bamboo_clove.html"
+    },
+    {
+      "name": "Umber",
+      "colors": "1 Color",
+      "image": "../assets/img/products/bamboo/umber.png",
+      "link": "../products/hardwood/bamboo/bamboo_umber.html"
+    },
+    {
+      "name": "Luna",
+      "colors": "1 Color",
+      "image": "../assets/img/products/bamboo/luna.png",
+      "link": "../products/hardwood/bamboo/bamboo_luna.html"
+    },
+    {
+      "name": "Onyx",
+      "colors": "1 Color",
+      "image": "../assets/img/products/bamboo/onyx.png",
+      "link": "../products/hardwood/bamboo/bamboo_onyx.html"
+    },
+    {
+      "name": "Granite",
+      "colors": "1 Color",
+      "image": "../assets/img/products/bamboo/granite.png",
+      "link": "../products/hardwood/bamboo/bamboo_granite.html"
+    }
+  ]
+}

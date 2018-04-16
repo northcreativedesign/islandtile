@@ -1,0 +1,649 @@
+#laminate-hero {
+
+  .row {
+    max-width: 100vw;
+  }
+
+
+  .laminatehero {
+    margin-top: 50px;
+    @include heroimage('../img/laminatehero.jpg');
+    @include breakpoint(small only) {
+      margin-top: 0px;
+      height: 50vh;
+    }
+
+    h1 {
+      color: white;
+      font-family: $latobold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+
+    h3 {
+      color: white;
+      font-size: 21px;
+      font-family: $latoreg;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
+}
+
+#vinyl-hero {
+  @extend #laminate-hero;
+  .row {
+    max-width: 100vw;
+  }
+  .vinylhero {
+    @extend .laminatehero;
+    @include heroimage('../img/vinylhero.png');
+    @include breakpoint(small only) {
+      margin-top: 0px;
+      height: 50vh;
+    }
+  }
+}
+
+
+#hardwood-hero {
+  @extend #laminate-hero;
+  .hardwoodhero {
+    @extend .laminatehero;
+    @include heroimage('../img/hardwood_hero.png');
+    @include breakpoint(small only) {
+      margin-top: 0px;
+      height: 50vh;
+    }
+  }
+}
+
+
+
+// Tile Product Section
+
+
+#tile-hero {
+  @extend #laminate-hero;
+  .tilehero {
+    @extend .laminatehero;
+    @include heroimage('../img/tilehero.png');
+    @include breakpoint(small only) {
+      margin-top: 0px;
+      height: 50vh;
+    }
+  }
+}
+
+#tile-brands {
+
+  margin-top: 60px;
+
+  .container {
+    padding-right: 5%;
+  }
+
+  .shaw-tile-brand {
+    padding-left: 10%
+  }
+
+  .american-tile-brand {
+    padding-left: 8.5%;
+  }
+
+  .daltile-tile-brand {
+    padding-left: 9%;
+  }
+
+  .tile-brand-bottomrow {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+  .emser-tile-brand {
+    margin-top: -10px;
+  }
+}
+
+// Hardwood Florring Section
+
+#hardwood-brands {
+
+  margin-top: 60px;
+
+
+  .shaw-hardwood-brand {
+    padding-left: 10%;
+  }
+
+  .armstrong-hardwood-brand {
+    padding-left: 10%;
+  }
+
+  .mannington-hardwood-brand {
+    padding-left: 5%;
+  }
+
+  .hardwood-brand-bottomrow {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+}
+
+// Hardwood Florring Section
+
+#laminate-brands {
+
+  margin-top: 60px;
+
+
+  .shaw-laminate-brand {
+    padding-left: 10%;
+  }
+
+  .armstrong-laminate-brand {
+    padding-left: 6%;
+  }
+
+  .mannington-laminate-brand {
+    padding-left: 5%;
+  }
+
+  .cronin-laminate-brand {
+    margin-top: 35px;
+  }
+
+  .wanke-laminate-brand {
+    margin-top: 35px;
+  }
+
+  .laminate-brand-bottomrow {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+}
+
+
+.productheader {
+
+  h1 {
+    margin-top: 0px;
+    position: relative;
+    top: 24.4rem;
+    text-shadow: 3px 8px 25px rgba(0,0,0,1);
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    font-family: $latoreg;
+    @include breakpoint(small only) {
+      top: 150px;
+    }
+  }
+
+  h3 {
+    position: relative;
+    top: 23rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 3px 5px 15px rgba(0,0,0,1);
+    @include breakpoint(small only) {
+      top: 150px;
+      font-size: 1rem !important;
+    }
+  }
+
+}
+
+#productheader2 {
+  margin-top: 6rem;
+
+  h1 {
+    font-size: 3rem;
+    font-family: $latoreg;
+  }
+  p {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.productlist-section {
+
+h1 {
+  text-align: left;
+  font-size: 3rem;
+  font-family: $latolight;
+  &:first-child {
+    margin-top: 50px;
+  }
+}
+
+  // Global Product Grid
+  .product-sample {
+
+    .medium-3 {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    p {
+      font-size: 15px;
+      font-family: $chapparral;
+      padding: 0;
+      text-align: left;
+    }
+
+    .small-4 {
+        p {
+          text-align: right;
+        }
+      }
+
+  }
+}
+
+
+
+// Vinyl Brands Section
+
+#vinyl-brands {
+  .container {
+    margin-top: 5vh;
+  }
+  .shaw-vinyl-brand {
+    padding-left: 10%;
+  }
+  .metro-vinyl-brand {
+    padding-left: 2%;
+  }
+  .wanke-vinyl-brand {
+    padding-left: 9%;
+  }
+
+  .vinyl-armstrong-brand {
+    margin-top: -10px;
+  }
+
+  .vinyl-bottom-row {
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+// Metro Flor Brand Card
+    .brandcardmetro {
+        position: relative;
+    }
+    .brandcardmetro .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 24px;
+        z-index: 99;
+    }
+    .brandcardmetro:hover .img-top {
+        display: block;
+    }
+}
+
+
+// Product Hero Section
+
+@mixin producthero ($imgpath, $postion: bottom, $backgroundsize: contain, $height: 567px, $repeat: no-repeat, $margin: 50px) {
+  background: url($imgpath);
+  background-position: $postion;
+  height: $height;
+  background-repeat: $repeat;
+  background-size: $backgroundsize;
+  margin-top: $margin;
+  @include breakpoint(small only) {
+    margin-top: -2px;
+    height: 253px;
+  }
+  @include mobileland {
+    height: 360px;
+  }
+}
+
+
+
+#magnoliaroom {
+     @include producthero('../img/products/hero/magnoliahero.jpg');
+}
+
+#spicedroom {
+  @include producthero('../img/products/hero/spicedhero.jpg');
+}
+
+#mountainroom {
+  @include producthero('../img/products/hero/mountaincedar_hero.jpg');
+}
+
+#nutmegroom {
+  @include producthero('../img/products/hero/nutmeghero.jpg');
+}
+
+#goldenroom {
+  @include producthero('../img/products/hero/evergreen_room.jpg');
+}
+
+#cappuccinoroom {
+  @include producthero('../img/products/hero/cappuccino_room.jpg');
+}
+
+#smokedhemroom {
+  @include producthero('../img/products/hero/hemlock_room.jpg');
+}
+
+#puboakroom {
+  @include producthero('../img/products/hero/burnt_pub_room.jpg');
+}
+
+#frenchroom {
+  @include producthero('../img/products/hero/french_barrel_room.jpg');
+}
+
+#mysticroom {
+  @include producthero('../img/products/hero/mystic_room.jpg');
+}
+
+#bourbonroom {
+  @include producthero('../img/products/hero/bourbon_room.jpg');
+}
+
+#alaskanroom {
+  @include producthero('../img/products/hero/alaskan_room.jpg');
+}
+
+#honeyroom {
+  @include producthero('../img/products/hero/honey_cherry.jpg');
+}
+
+#almondroom {
+  @include producthero('../img/products/hero/almond_maple.jpg');
+}
+
+#antebellumroom {
+  @include producthero('../img/products/hero/antebellum_oak.jpg');
+}
+
+#roseroom {
+  @include producthero('../img/products/hero/rose_teak.jpg');
+}
+
+#indonesianroom {
+  @include producthero('../img/products/hero/indonesian_room.jpg');
+}
+
+#mebonyroom {
+  @include producthero('../img/products/hero/midnightebony_room.jpg');
+}
+
+#amazonianroom {
+  @include producthero('../img/products/hero/amazonian_room.jpg');
+}
+
+#kingsroom {
+  @include producthero('../img/products/hero/kingswalnut_room.jpg');
+}
+
+#crackedroom {
+  @include producthero('../img/products/hero/crackoak_room.jpg');
+}
+
+#chickoryroom {
+  @include producthero('../img/products/hero/cherryhickory_room.jpg');
+}
+
+#greyeroom {
+  @include producthero('../img/products/hero/english_room.jpg');
+}
+
+#qchestroom {
+  @include producthero('../img/products/hero/chestnut_room.jpg');
+}
+
+#burmaroom {
+  @include producthero('../img/products/hero/burmahero.jpg');
+}
+
+#canadianroom {
+  @include producthero('../img/products/hero/canadianhero.jpg');
+}
+
+#coolibahroom {
+  @include producthero('../img/products/hero/coolibahhero.jpg');
+}
+
+#countryoakroom {
+  @include producthero('../img/products/hero/countryoakhero.jpg');
+}
+#blackwalroom {
+    @include producthero('../img/products/hero/blackwalnut_hero.jpg');
+}
+#parisianroom {
+    @include producthero('../img/products/hero/parisianfig_hero.jpg');
+}
+#stormyroom {
+    @include producthero('../img/products/hero/stormywillow_hero.jpg');
+}
+#viennaroom {
+    @include producthero('../img/products/hero/viennaoak_hero.jpg');
+}
+#baysideroom {
+    @include producthero('../img/products/hero/bayside_hero.jpg');
+}
+#mistyroom {
+    @include producthero('../img/products/hero/mistyoak_hero.jpg');
+}
+
+#riverwoodroom {
+    @include producthero('../img/products/hero/riverwood_hero.jpg');
+}
+#wildmesroom {
+    @include producthero('../img/products/hero/wildmes_hero.jpg');
+}
+#wagnerpineroom {
+    @include producthero('../img/products/hero/wagnerpine_hero.jpg');
+}
+#vulcanicroom {
+    @include producthero('../img/products/hero/vulcanic_hero.jpg');
+}
+#ambassadorroom {
+  @include producthero('../img/products/hero/dal_ambassador.jpg');
+}
+#avondaleroom {
+  @include producthero('../img/products/hero/dal_avondale.jpg');
+}
+#continentalroom {
+  @include producthero('../img/products/hero/dal_continental.jpg');
+}
+#affinityroom {
+  @include producthero('../img/products/hero/dal_affinity.jpg');
+}
+#ayersroom {
+  @include producthero('../img/products/hero/dal_ayers.jpg');
+}
+#baybridgeroom {
+  @include producthero('../img/products/hero/dal_baybridge.jpg');
+}
+#anchorageroom {
+  @include producthero('../img/products/hero/dal_anchorage.jpg');
+}
+#cortonaroom {
+  @include producthero('../img/products/hero/dal_cortona.jpg');
+}
+#cloveroom {
+  @include producthero('../img/products/hero/bamboo_clove.jpg');
+}
+#graniteroom {
+  @include producthero('../img/products/hero/bamboo_granite.jpg');
+}
+#lunaroom {
+  @include producthero('../img/products/hero/bamboo_luna.jpg');
+}
+#onyxroom {
+  @include producthero('../img/products/hero/bamboo_onyx.jpg');
+}
+#umberroom {
+  @include producthero('../img/products/hero/bamboo_umber.jpg');
+}
+#man-ahickoryroom {
+  @include producthero('../img/products/hero/man_ahickory.jpg');
+}
+#man-amapleroom{
+  @include producthero('../img/products/hero/man_amaple.jpg');
+}
+#man-aoakroom{
+  @include producthero('../img/products/hero/man_aoak.jpg');
+}
+#man-awalnutroom{
+  @include producthero('../img/products/hero/man_awalnut.jpg');
+}
+#man-blueroom{
+  @include producthero('../img/products/hero/man_blueridge.jpg');
+}
+#man-herringtonoak{
+  @include producthero('../img/products/hero/man_harringtonoak.jpg');
+}
+#man-jamesoak{
+  @include producthero('../img/products/hero/man_jamesoak.jpg');
+}
+#man-madisonmaple{
+  @include producthero('../img/products/hero/man_madisonmaple.jpg');
+}
+#man-montanaoak{
+  @include producthero('../img/products/hero/man_montanaoak.jpg');
+}
+#man-oregonoak{
+  @include producthero('../img/products/hero/man_oregonoak.jpg');
+}
+#man-madisonoak{
+  @include producthero('../img/products/hero/man_madisonoak.jpg');
+}
+#man-andeanpecan{
+  @include producthero('../img/products/hero/man_adeanpecan.jpg');
+}
+#man-mayanpecan{
+  @include producthero('../img/products/hero/man_mayanpecan.jpg');
+}
+#man-brazcherry{
+  @include producthero('../img/products/hero/man_brazcherry.jpg');
+}
+#haciendaroom{
+  @include producthero('../img/products/hero/shaw_hacienda.jpg');
+}
+#shaw-naparoom{
+  @include producthero('../img/products/hero/shaw_napa.jpg');
+}
+#shaw-olympia{
+  @include producthero('../img/products/hero/shaw_olympia.jpg');
+}
+#valentinoroom{
+  @include producthero('../img/products/hero/shaw_valentino.jpg');
+}
+
+// Main Product Styling
+
+#productherosection {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+#product-description-section {
+  h1, p, h5, h3 {
+    text-align: center;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 3.5rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+  }
+  hr {
+    display: block;
+    margin: 0 auto;
+    width: 8.375rem;
+    border: 0.003rem solid #000000;
+  }
+  .product-description {
+
+    h3 {
+      margin-top: 6rem;
+      font-size: 3rem;
+    }
+
+    h5 {
+      font-size: 1.5rem;
+      padding: 0;
+    }
+
+    padding-top: 50px;
+
+    .small-12 {
+      @include breakpoint(medium) {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+  }
+
+  // Product Details
+  .product-details {
+     background-color: rgb(225, 225, 225);
+     margin-top: 55px;
+     .main-details {
+       p {
+         text-align: left;
+         @include breakpoint(small only) {
+           font-size: 0.7rem;
+         }
+       }
+     }
+     img {
+       display: block;
+       margin: 0 auto;
+     }
+     .triangle {
+       margin-top: -10px;
+     }
+  }
+}
+
+.main-details {
+    padding-top: 54px;
+    text-transform: uppercase;
+	  padding-bottom: 54px;
+    font-size: 15px;
+    padding-left: 10px;
+    line-height: 50px;
+    @include breakpoint(medium) {
+      padding-left: 10vw;
+    }
+    @include breakpoint(large) {
+      padding-left: 15vw;
+    }
+}
+
+.sellsheet {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 15px;
+       h2 {
+        color: black;
+        line-height: 20px;
+    }
+
+    h3 {
+        color: #d94169;
+        font-size: 20px;
+    }
+
+    .divideline {
+        margin-top: 10px;
+    }
+    @media (min-width: 767px) {
+        h2 {
+             font-size: 24px;
+        }
+    }
+}

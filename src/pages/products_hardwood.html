@@ -1,0 +1,135 @@
+---
+heroheader: Hardwood
+herosub: Bring natural beauty & durability to your home.
+manclassicheader: Mannington Hardwood Collection
+bambooheader: Bamboo Hardwood
+hardwoodlogo_one: /assets/img/shawlogo.png
+hardwoodlogo_two: /assets/img/mannington_logo.png
+hardwoodlogo_three: /assets/img/armstronglogo.png
+hardwoodlogo_four: /assets/img/bamboo_hardwoods.png
+hardwoodlogo_five: /assets/img/cronin_logo.png
+hardwoodlogo_six: /assets/img/wanke_cascade.png
+---
+
+<section id="hardwood-hero">
+  <div class="container">
+    <div class="row">
+      <div class="hardwoodhero">
+        <div class="productheader">
+          <h1>{{heroheader}}</h1>
+          <h3>{{herosub}}</h3>
+        </div>
+      </div>
+      <div class="small-12 triangle">
+       <img src="{{root}}assets/img/triangle.png" alt="triangle" class="center-block">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="productheader2">
+<div class="container">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>Browse Our National Brands</h1>
+      <p>Click below to view their online catalog</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="hardwood-brands">
+  <div class="container">
+    <div class="row">
+      <div class="small-4 columns shaw-hardwood-brand">
+        <a href="https://shawfloors.com/" target="_blank"><img src="{{hardwoodlogo_one}}" alt=""></a>
+      </div>
+      <div class="small-4 columns mannington-hardwood-brand">
+        <a href="https://www.mannington.com/" target="_blank"><img src="{{hardwoodlogo_two}}" alt=""></a>
+      </div>
+      <div class="small-4 columns armstrong-hardwood-brand">
+        <a href="https://www.armstrongflooring.com/" target="_blank"><img src="{{hardwoodlogo_three}}" alt=""></a>
+      </div>
+    </div>
+    <div class="row hardwood-brand-bottomrow">
+      <div class="small-4 columns">
+        <a href="https://www.bamboohardwoods.com/" target="_blank"><img src="{{hardwoodlogo_four}}" alt=""></a>
+      </div>
+      <div class="small-4 columns">
+        <a href="http://www.cronincompany.com/" target="_blank"><img src="{{hardwoodlogo_five}}" alt=""></a>
+      </div>
+      <div class="small-4 columns">
+        <a href="http://www.wanke.com/" target="_blank"><img src="{{hardwoodlogo_six}}" alt=""></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Product Grid Template -->
+
+<section id="productheader2">
+<div class="container">
+  <div class="row">
+    <div class="small-12 columns">
+      <h1>A Variety Of Color &amp; Style Combinations</h1>
+      <p>Samples Avaliable</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Mannington Classic Hardwood Collection -->
+<section class="productlist-section">
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>{{manclassicheader}}</h1>
+      </div>
+    </div>
+    <div class="row" data-equalizer>
+      {{#each hardwood.manningtonhardwood}}
+      <div class="medium-4 large-3 end small-6 columns" data-equalizer-watch>
+        <div class="product-sample">
+          <a href="{{link}}"><img src="{{image}}" alt="" width="300px"></a>
+          <div class="row">
+            <div class="small-8 columns">
+              <p>{{name}}</p>
+            </div>
+            <div class="small-4 columns">
+              <p>{{colors}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="productlist-section">
+  <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+        <h1>{{bambooheader}}</h1>
+      </div>
+    </div>
+    <div class="row" data-equalizer>
+      {{#each hardwood.bamboohardwood}}
+      <div class="medium-4 large-3 end small-6 columns" data-equalizer-watch>
+        <div class="product-sample">
+          <a href="{{link}}"><img src="{{image}}" alt="" width="300px"></a>
+          <div class="row">
+            <div class="small-8 columns">
+              <p>{{name}}</p>
+            </div>
+            <div class="small-4 columns">
+              <p>{{colors}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

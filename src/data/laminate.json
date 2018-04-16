@@ -1,0 +1,214 @@
+{
+    "balterioheritage": [
+      {
+        "name": "Sweet Magnolia",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_sweetmagnolia.jpg",
+        "link" : "../products/laminate/balterio_heritage/sweet_magnolia.html"
+      },
+      {
+        "name": "Mountain Cedar",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_mountaincedar.jpg",
+        "link" : "../products/laminate/balterio_heritage/mountain_cedar.html"
+      },
+      {
+        "name": "Spiced Hickory",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_spicedhickory.jpg",
+        "link" : "../products/laminate/balterio_heritage/spiced_hickory.html"
+      },
+      {
+        "name": "Nutmeg Hickory",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_nutmeg.jpg",
+        "link" : "../products/laminate/balterio_heritage/nutmeg_hickory.html"
+      },
+      {
+        "name": "Golden Evergreen",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_golden.jpg",
+        "link" : "../products/laminate/balterio_heritage/golden_evergreen.html"
+      },
+      {
+        "name": "Cappuccino Pine",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_cappuccino.jpg",
+        "link" : "../products/laminate/balterio_heritage/cappuccino_pine.html"
+      },
+      {
+        "name": "Smoked Hemlock",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_smokedhemlock.jpg",
+        "link" : "../products/laminate/balterio_heritage/smoked_hemlock.html"
+      },
+      {
+        "name": "Burnt Pub Oak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_burntoak.jpg",
+        "link" : "../products/laminate/balterio_heritage/burnt_puboak.html"
+      },
+      {
+        "name": "French Barrel Oak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_frenchbarrel.jpg",
+        "link" : "../products/laminate/balterio_heritage/frenchb_oak.html"
+      },
+      {
+        "name": "Mystic Everwood",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_mystic.jpg",
+        "link" : "../products/laminate/balterio_heritage/mystic_everwood.html"
+      },
+      {
+        "name": "Bourbon Everwood",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_bourbon.jpg",
+        "link" : "../products/laminate/balterio_heritage/bourbon_everwood.html"
+      },
+      {
+        "name": "Alaskan Pine",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_alaskan.jpg",
+        "link" : "../products/laminate/balterio_heritage/alaskan_pine.html"
+      }
+    ],
+    "baltraditions": [
+      {
+        "name": "Honey Cherry",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_honeycherry.jpg",
+        "link" : "../products/laminate/balterio_heritage/honey_cherry.html"
+      },
+      {
+        "name": "Almond Maple",
+        "colors": "1 Colors",
+        "image": "../assets/img/products/balterio/bal_almond.jpg",
+        "link" : "../products/laminate/balterio_heritage/almond_maple.html"
+      },
+      {
+        "name": "Antebellum Oak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_antebellum.jpg",
+        "link" : "../products/laminate/balterio_heritage/antebellum_oak.html"
+      },
+      {
+        "name": "Rose Teak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_rose.jpg",
+        "link" : "../products/laminate/balterio_heritage/rose_teak.html"
+      },
+      {
+        "name": "Indonesian Rosewood",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_indonesian.jpg",
+        "link" : "../products/laminate/balterio_heritage/indonesian_rosewood.html"
+      },
+      {
+        "name": "Midnight Ebony",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_midnighebony.jpg",
+        "link" : "../products/laminate/balterio_heritage/midnight_ebony.html"
+      },
+      {
+        "name": "Amazonian Acacia",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_amazonian.jpg",
+        "link" : "../products/laminate/balterio_heritage/amazonian_acacia.html"
+      },
+      {
+        "name": "Kings Walnut",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_kingswalnut.jpg",
+        "link" : "../products/laminate/balterio_heritage/kings_walnut.html"
+      },
+      {
+        "name": "Cracked Oak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_crackedoak.jpg",
+        "link" : "../products/laminate/balterio_heritage/cracked_oak.html"
+      },
+      {
+        "name": "Cherry Hickory",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_cherryhickory.jpg",
+        "link" : "../products/laminate/balterio_heritage/cherry_hickory.html"
+      },
+      {
+        "name": "Grey English Chestnut",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_greyenglish.jpg",
+        "link" : "../products/laminate/balterio_heritage/greye_chestnut.html"
+      },
+      {
+        "name": "Queenan Chestnut",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_queenan.jpg",
+        "link" : "../products/laminate/balterio_heritage/queenan_chestnut.html"
+      }
+    ],
+    "balteriometropolitan": [
+      {
+        "name": "Black Walnut",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_bwalnut.jpg",
+        "link" : "../products/laminate/balterio_heritage/black_walnut.html"
+      },
+      {
+        "name": "Parisian Fig",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_fig.jpg",
+        "link" : "../products/laminate/balterio_heritage/parisian_fig.html"
+      },
+      {
+        "name": "Stormy Willow",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_willow.jpg",
+        "link" : "../products/laminate/balterio_heritage/stormy_willow.html"
+
+      },
+      {
+        "name": "Vienna Oak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_vienna.jpg",
+        "link" : "../products/laminate/balterio_heritage/vienna_oak.html"
+      },
+      {
+        "name": "Misty Oak",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_mistyoak.jpg",
+        "link" : "../products/laminate/balterio_heritage/misty_oak.html"
+      },
+      {
+        "name": "River Wood",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_rwood.jpg",
+        "link" : "../products/laminate/balterio_heritage/river_wood.html"
+      },
+      {
+        "name": "Wild Mesquite",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_mesquite.jpg",
+        "link" : "../products/laminate/balterio_heritage/wild_mesquite.html"
+      },
+      {
+        "name": "Bayside Everwood",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_bayside.jpg",
+        "link" : "../products/laminate/balterio_heritage/bayside_everwood.html"
+      },
+      {
+        "name": "Wagner Pine",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_wagner.jpg",
+        "link" : "../products/laminate/balterio_heritage/wagner_pine.html"
+
+      },
+      {
+        "name": "Vulcanic Pine",
+        "colors": "1 Color",
+        "image": "../assets/img/products/balterio/bal_vulcanic.jpg",
+        "link" : "../products/laminate/balterio_heritage/vulcanic_pine.html"
+      }
+    ]
+}

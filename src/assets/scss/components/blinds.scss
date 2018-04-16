@@ -1,0 +1,158 @@
+@mixin blinds_background($page) {
+  background-image: url(../img/#{$page}.png);
+  height: 53.7rem;
+  background-position: center;
+  background-size: cover;
+  margin-top: 1rem;
+}
+
+
+#blinds-hero-section {
+  .blinds-hero {
+    background-image: url(../img/blinds_hero.png);
+    height: 53.7rem;
+    background-position: bottom;
+    background-size: cover;
+    margin-top: 5rem;
+    @include breakpoint(small only) {
+      margin-top: 0px;
+      height: 40vh;
+    }
+  }
+  .power-view-row {
+    margin-top: 5rem;
+  }
+  h5 {
+    color: #1e1e1e;
+    font-family: $latoreg;
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 3rem;
+  }
+
+  .power-text {
+    padding-left: 5rem;
+    padding-right: 0px;
+    margin-top: 6rem;
+    @include breakpoint(small only) {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  h1 {
+    margin-top: 5rem;
+  }
+
+  hr {
+    width: 22.4rem;
+    border: 0.1rem solid #333333;
+  }
+
+  .window-fashion-text {
+    p {
+      text-align: center;
+      padding-left: 20vw;
+      padding-right: 20vw;
+    }
+  }
+}
+
+#blinds-main-section {
+  .small-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sheer-bg {
+    @include blinds_background(blinds_1);
+    margin-top: 3.5rem;
+  }
+
+  .cell-bg {
+    margin-top: 1rem;
+    @include blinds_background(blinds_2);
+  }
+
+  .roman-bg {
+    margin-top: 1rem;
+    @include blinds_background(blinds_3);
+  }
+
+  .roller-bg {
+    margin-top: 10px;
+    @include blinds_background(blinds_4);
+  }
+
+  .woven-bg {
+    margin-top: 10px;
+    @include blinds_background(blinds_5);
+  }
+
+  .shutter-bg {
+    margin-top: 10px;
+    @include blinds_background(blinds_6);
+  }
+
+  .vertical-bg {
+    margin-top: 10px;
+    @include blinds_background(blinds_7);
+  }
+
+  .horizontal-bg {
+    margin-top: 10px;
+    @include blinds_background(blinds_8);
+    margin-bottom: -70px;
+  }
+
+  .outer-box {
+    width: 40.2rem;
+    height: 18rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 35%;
+
+    @include breakpoint(medium) {
+      width: 56.16rem;
+      margin-top: 20vh
+    }
+    @include breakpoint(large) {
+      margin-top: 15%;
+    }
+  }
+
+  .compare-row {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  h1, h4, h6 {
+    color: white;
+  }
+
+  h1 {
+    padding-top: 5%;
+    font-family: $oswaldbold;
+    font-size: 36px;
+  }
+
+  h4 {
+    @include breakpoint(small only) {
+      font-size: 1.44rem;
+    }
+  }
+
+  h6 {
+    font-family: $latobold;
+    font-weight: 900;
+    font-size: 2.24rem;
+    padding-top: 15px;
+
+    @include mobileland {
+    font-size: 1.92rem;
+    }
+
+    @include breakpoint(small only) {
+      font-size: 1.28rem;
+    }
+  }
+}

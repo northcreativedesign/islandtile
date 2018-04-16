@@ -1,0 +1,425 @@
+
+// Video Section
+
+.video-row {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+// Quick View BG Mixin
+
+@mixin quick-img ($imgpath, $postion: center, $backgroundsize: cover, $height: 309px) {
+  background: url($imgpath);
+  height: $height;
+  background-size: $backgroundsize;
+}
+
+
+.quickview {
+
+  // Global Section Styling
+
+  h1 {
+    font-size: 3rem;
+    font-family: $latoreg;
+  }
+
+  // Bottom Padding
+  .medium-6 {
+    padding-bottom: 15px;
+  }
+
+
+  // Header Styling
+
+
+  // Element Styling
+  &--flooring {
+    @include quick-img('../img/quick_flooring.jpg');
+  }
+
+  &--installation {
+    @include quick-img('../img/quick_installation.jpg');
+  }
+
+  &--backsplash {
+      @include quick-img('../img/quick_backsplash.jpg');
+  }
+
+  &--countertops {
+    @include quick-img('../img/quick_countertops.jpg');
+  }
+
+  &--blinds {
+    @include quick-img('../img/quick_blinds.jpg');
+  }
+
+  &--accessory {
+    @include quick-img('../img/quick_accessory.jpg');
+  }
+
+  &--design {
+    @include quick-img('../img/quick_interior.jpg');
+    .row {
+      text-align: center;
+      h1 {
+        color: white;
+        padding-top: 8%;
+        text-transform: uppercase;
+        font-family: $oswaldbold;
+        font-size: 46px;
+        @include breakpoint(small only) {
+          font-size: 1.5rem;
+          padding-top: 25%;
+        }
+      }
+      h6 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 24px;
+        @include breakpoint(small only) {
+          font-size: 1rem;
+        }
+      }
+      .outer-box {
+        width: 98.5%;
+        height: 309px;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-top: -80px;
+        @include breakpoint(small only) {
+          width: 95.5%;
+        }
+      }
+    }
+  }
+
+
+  // Button
+  &--button {
+    display: block;
+    margin: 0 auto;
+    width: 25rem;
+    height: 5rem;
+    border: 0.063rem solid #ffffff;
+    position: relative;
+    top: 130px;
+    background-color: transparent;
+    font-family: $latomed;
+    font-size: 2.2rem;
+    color: white;
+    text-align: center;
+    padding-top: 0.4rem;
+    text-transform: uppercase;
+  }
+}
+
+
+#quickview-section {
+
+  h1 {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 80px;
+  }
+
+  hr {
+    display: block;
+    margin: 0 auto;
+    width: 8.375rem;
+    border: 0.1rem solid #000000;
+  }
+
+  // Quick View BG Images
+
+}
+
+
+
+/*
+--------------------------------------------------------------------------------
+                               Showroom Section
+--------------------------------------------------------------------------------
+*/
+
+
+#showroom-section {
+
+  // Global Showroom Settings
+
+  margin-top: 60px;
+
+
+  .small-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  h1 {
+    margin-bottom: 12px;
+    font-size: 3rem;
+    font-family: $latoreg;
+  }
+
+  hr {
+    width: 22rem;
+    border: 0.1rem solid #000000;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h4 {
+    margin-top: 12px;
+  }
+
+  //Showroom Hero
+
+  .showroom-img {
+    margin-top: 60px;
+    background: url(../img/showroom_hero.jpg) ;
+    // background-blend-mode: soft-light;
+    background-size: cover;
+    height: 572px;
+    background-position: center;
+  }
+}
+
+
+/*
+--------------------------------------------------------------------------------
+                               Brands Section
+--------------------------------------------------------------------------------
+*/
+
+#brand-section {
+
+  // Global Brand Styling
+
+
+  h1 {
+    margin-top: 60px;
+    margin-bottom: 12px;
+    font-size: 3rem;
+    font-family: $latoreg;
+  }
+
+  h4 {
+    margin-top: 12px;
+  }
+
+  // Break Line Styling
+
+  hr {
+    width: 9.6rem;
+    border: 0.1rem solid #000000;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .row {
+    max-width: 100rem;
+    padding-left: 30px;
+    @include breakpoint(small only) {
+      padding-left: 0px;
+    }
+    &:nth-child(3) {
+      padding-left: 60px;
+      @include breakpoint(small only) {
+        padding-left: 0px;
+      }
+    }
+    &:nth-child(4) {
+      padding-left: 80px;
+      @include breakpoint(small only) {
+        padding-left: 0px;
+      }
+    }
+  }
+  // Upper Row
+  .upper-brand-row {
+    margin-top: 80px;
+    .medium-4 {
+      &:first-child {
+        padding-left: 30px;
+        padding-right: 30px;
+        @include breakpoint(small only) {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      &:nth-child(2) {
+        margin-top: 15px;
+        @include breakpoint(small only) {
+          margin-top: 25px;
+          padding-left: 13%;
+        }
+      }
+      &:nth-child(3) {
+        margin-top: -10px;
+        @include breakpoint(small only) {
+          margin-top: 25px;
+          padding-left: 16%;
+        }
+      }
+    }
+  }
+  // Middle Brand Row
+  .middle-brand-row {
+    margin-top: 40px;
+    @include breakpoint(small only) {
+      margin-top: 25px;
+    }
+    .medium-4 {
+      @include breakpoint(small only) {
+        padding-left: 25%;
+        margin-bottom: 35px;
+      }
+      &:nth-child(2) {
+        padding-left: 80px;
+        margin-top: 10px;
+        @include breakpoint(small only) {
+          padding-left: 25%;
+        }
+      }
+      &:nth-child(3) {
+        @include breakpoint(small only) {
+          padding-left: 22%;
+        }
+      }
+    }
+  }
+
+  // Bottom Brand Row
+  .lower-brand-row {
+    margin-top: 50px;
+    @include breakpoint(small only) {
+      margin-top: 15px;
+    }
+    .medium-4 {
+      @include breakpoint(small only) {
+        padding-left: 19%;
+        margin-bottom: 35px;
+      }
+      &:nth-child(3) {
+        margin-top: 5px;
+        @include breakpoint(small only) {
+          padding-left: 29%;
+        }
+      }
+    }
+  }
+}
+
+/*
+--------------------------------------------------------------------------------
+                               Footer Section
+--------------------------------------------------------------------------------
+*/
+
+footer {
+  margin-top: 80px;
+  width: 100%;
+  height: 23rem;
+  background-color: #000000;
+
+.medium-4 {
+
+  // Left Side Footer Logo
+  &:nth-child(1) {
+    // Logo
+    margin-top: 6.5rem;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    @include breakpoint(small only) {
+      padding-left: 28vw;
+    }
+  }
+
+
+  // Middle Footer Section {
+
+  &:nth-child(2) {
+    margin-top: 2.9rem;
+    h6 {
+      color: white;
+      font-family: $latolight;
+      font-size: 2.4rem;
+      text-align: center;
+      margin-top: 30px;
+      @include breakpoint(small only) {
+        margin-top: 130px;
+      }
+    }
+    h5 {
+      color: white;
+      font-family: $latobold;
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 8px;
+    }
+
+    hr {
+      display: block;
+      margin: 0 auto;
+      width: 9.7rem;
+      border: 0.063rem solid #ffffff;
+    }
+  }
+
+  //Right Footer Section
+
+    &:nth-child(3) {
+      margin-top: 20px;
+      padding-left: 6rem;
+
+      .small-2 {
+        padding-right: 0px;
+      }
+
+      .small-10 {
+        padding-left: 0px;
+      }
+
+      .small-12 {
+        padding-left: 0px;
+        margin-top: 2rem;
+        @include breakpoint(small only) {
+          padding-left: 24vw;
+        }
+      }
+
+      p {
+        color: white;
+        font-family: $latomed;
+        font-size: 1.6rem;
+        margin-top: 5px;
+        text-align: left;
+        padding: 0;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
+
+// NCDesign Section
+
+#lower-footer-section {
+  .container {
+    background-color: #e60000;
+    @include breakpoint(small only) {
+      height: 450px;
+    }
+    }
+  p {
+    color: #ffffff;
+    font-family: $latolight;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

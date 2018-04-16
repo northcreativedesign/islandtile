@@ -1,0 +1,105 @@
+{
+  "daltile": [
+    {
+      "name": "Ambassador",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/daltile/daltile_ambassador.png",
+      "link" : "../products/tile/dal_ambassador.html"
+    },
+    {
+      "name": "Avondale",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/daltile/daltile_avondale.png",
+      "link" : "../products/tile/dal_avondale.html",
+      "link" : "../products/tile/dal_avondale.html"
+    },
+    {
+      "name": "Affinity",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/daltile/daltile_affinity.png",
+      "link" : "../products/tile/dal_affinity.html"
+    },
+    {
+      "name": "Continental Slate",
+      "colors": "6 Colors",
+      "image": "../assets/img/products/daltile/daltile_continental.png",
+      "link" : "../products/tile/dal_continental.html"
+    },
+    {
+      "name": "Ayers Rock",
+      "colors": "5 Colors",
+      "image": "../assets/img/products/daltile/daltile_ayersrock.png",
+      "link" : "../products/tile/dal_ayers.html"
+    },
+    {
+      "name": "Anchorage",
+      "colors": "8 Colors",
+      "image": "../assets/img/products/daltile/dal_anchorage.png",
+      "link" : "../products/tile/dal_anchorage.html"
+    },
+    {
+      "name": "Bay Bridge",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/daltile/dal_baybridge.png",
+      "link" : "../products/tile/dal_baybridge.html"
+    },
+    {
+      "name": "Cortona",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/daltile/dal_cortona.png",
+      "link" : "../products/tile/dal_cortona.html"
+    }
+  ],
+  "shawflooring": [
+    {
+      "name": "Hacienda",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/shaw/tile/shaw_hacienda.jpg",
+      "link" : "../products/tile/shaw_hacienda.html"
+    },
+    {
+      "name": "Olympia",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/shaw/tile/shaw_olympia.jpg",
+      "link" : "../products/tile/shaw_olympia.html"
+    },
+    {
+      "name": "Napa",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/shaw/tile/shawnapa.jpg",
+      "link" : "../products/tile/shaw_napa.html"
+    },
+    {
+      "name": "Valentino",
+      "colors": "6 Colors",
+      "image": "../assets/img/products/shaw/tile/shawvalentino.jpg",
+      "link" : "../products/tile/shaw_valentino.html"
+    }
+  ],
+  "americanolean": [
+    {
+      "name": "Fusion Cotto",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/american_olean/olean_cotto.jpg",
+      "link" : ""
+    },
+    {
+      "name": "Concrete Chic",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/american_olean/olean_chic.jpg",
+      "link" : ""
+    },
+    {
+      "name": "Rapport",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/american_olean/olean_rapport.jpg",
+      "link" : ""
+    },
+    {
+      "name": "Laorel Heights",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/american_olean/olean_heights.jpg",
+      "link" : ""
+    }
+  ]
+}

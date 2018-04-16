@@ -1,0 +1,154 @@
+{
+  "manningtonadura": [
+    {
+      "name": "Burma Teak",
+      "colors": "1 Color",
+      "image": "../assets/img/products/mannington/man_burma.jpg",
+      "link": "../products/vinyl/adura/burma_teak.html"
+    },
+    {
+      "name": "Canadian Maple",
+      "colors": "1 Color",
+      "image": "../assets/img/products/mannington/man_canadian.jpg",
+      "link": "../products/vinyl/adura/canadian_maple.html"
+
+    },
+    {
+      "name": "Coolibah Burlwood",
+      "colors": "1 Color",
+      "image": "../assets/img/products/mannington/man_burlwood.jpg",
+      "link": "../products/vinyl/adura/coolibah_burlwood.html"
+    },
+    {
+      "name": "Country Oak",
+      "colors": "3 Colors",
+      "image": "../assets/img/products/mannington/man_countryoak.jpg",
+      "link": "../products/vinyl/adura/country_oak.html"
+
+    },
+    {
+      "name": "Essex Oak",
+      "colors": "3 Colors",
+      "image": "../assets/img/products/mannington/man_essex.jpg"
+    },
+    {
+      "name": "Georgian Maple",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_georgian.jpg"
+    },
+    {
+      "name": "Timber Ridge",
+      "colors": "1 Color",
+      "image": "../assets/img/products/mannington/man_timber.jpg"
+    }
+  ],
+  "manningtonaduramax": [
+    {
+      "name": "Acacia",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_aspen.jpg"
+    },
+    {
+      "name": "Dockside",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/mannington/man_dockside.jpg"
+    },
+    {
+      "name": "Sundance",
+      "colors": "3 Colors",
+      "image": "../assets/img/products/mannington/man_sundance.jpg"
+    },
+    {
+      "name": "Margate Oak",
+      "colors": "3 Colors",
+      "image": "../assets/img/products/mannington/man_margate.jpg"
+    },
+    {
+      "name": "Meridian",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/mannington/man_meridian.jpg"
+    },
+    {
+      "name": "Aspen",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_aspen.jpg"
+    },
+    {
+      "name": "Lakeview",
+      "colors": "4 Colors",
+      "image": "../assets/img/products/mannington/man_lakeview.jpg"
+    },
+    {
+      "name": "Napa",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_napa.jpg"
+    },
+    {
+      "name": "Sausalito",
+      "colors": "3 Colors",
+      "image": "../assets/img/products/mannington/man_sausalito.jpg"
+    },
+    {
+      "name": "Seaport",
+      "colors": "2 Colors",
+      "image": "../assets/img/products/mannington/man_seaport.jpg"
+    }
+  ],
+  "armstrong": [
+    {
+      "name": "Acacia Cinnabar",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/cinnabar.png"
+    },
+    {
+      "name": "Acacia Natural",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/acacianatural.png"
+    },
+    {
+      "name": "Countryside Oak",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/oakgunstock.png"
+    },
+    {
+      "name": "Gotham City",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/gothamcity.png"
+    },
+    {
+      "name": "Soho Gray",
+      "colors": "1 Color",
+      "image": "../assets/img/products//armstrong/vinyl/sohogray.png"
+    },
+    {
+      "name": "Flint Gray",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/flintgray.png"
+    },
+    {
+      "name": "Walnut Raven",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/walnutraven.png"
+    },
+    {
+      "name": "Plank Natural",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/planknatural.png"
+    },
+    {
+      "name": "Rugged Brown",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/ruggedbrown.png"
+    },
+    {
+      "name": "Slate Sahara",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/slatesahara.png"
+    },
+    {
+      "name": "Slate Sand",
+      "colors": "1 Color",
+      "image": "../assets/img/products/armstrong/vinyl/slatesand.png"
+    }
+  ]
+}
