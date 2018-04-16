@@ -1,25 +1,60 @@
 <!-- First Special -->
 <section id="special-section">
   <div class="container">
+    <div class="row">
+      <div class="small-12 columns">
+          <div class="responsive-embed widescreen">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/byVdndPIgIc" frameborder="0" allowfullscreen></iframe>
+            </div>
+      <div class="small-12 columns">
+        <h1>Spring for Green Sale</h1>
+        <hr>
+        <h4>Shaw Floors</h4>
+        <p>Spring is here, and what better time to update your floors? From April 2 to May 12, you can Spring for Green and get a rebate of up to $500 on select Shaw floors. Plus, enjoy 24 months special financing (must be credit-approved)! Choose Shaw carpet, hardwood, resilient, laminate, tile or stone, and save! See store for details.
+
+        See the list of qualifying products here: <a href="https://shawfloors.com/qualifying-style-2018-spring-for-green-sale" target="_blank">https://shawfloors.com/qualifying-style-2018-spring-for-green-sale</a> Offer Valid April 2nd - May 12th, 2018</p>
+      </div>
+    </div>
+    {{#each specials.hdspecials}}
   <div class="row">
     <div class="small-12 columns">
-      {{#each specials}}
-      <p>{{specialonedes}}</p>
-      {{/each}}
-    </div>
-  </div>
-  <div class="row">
-    <div class="small-12 columns">
-      {{#each specials}}
-      <img src="{{specialtwoimg}}" alt="">
+      <img src="{{img}}" alt="">
     </div>
     <div class="small-12 columns">
-      <h1>{{specialtwoheader}}</h1>
+      <h1>{{header}}</h1>
       <hr>
-      <h4>{{specialtwosub}}</h4>
-      <p>{{specialtwodes}}</p>
+      <h4>{{subheader}}</h4>
+      <p>{{description}}</p>
+      <p>{{descriptiontwo}}</p>
+      <p>{{descriptionthree}}</p>
+      <p>{{descriptionfour}}</p>
+      <p>{{descriptionfive}}</p>
     </div>
-    {{/each}}
   </div>
+  {{/each}}
+  {{#each specials.otherspecials}}
+  <div class="row">
+    <div class="small-12 columns">
+      <img src="{{img}}" alt="">
+    </div>
+    <div class="small-12 columns">
+      <h1>{{header}}</h1>
+      <hr>
+      <h4>{{subheader}}</h4>
+      <p>{{description}}</p>
+    </div>
+  </div>
+  {{/each}}
+  <div class="row">
+      <div class="small-12 columns">
+        <img src="{{root}}/assets/img/mohawk_spring_2018.jpg" alt="">
+      </div>
+      <div class="small-12 columns">
+        <h1>All Pet Promotion</h1>
+        <hr>
+        <h4>Mohawk</h4>
+        <p>ave up to $1,000 for purchases of qualifying styles of select Mohawk Flooring. Offer valid April 12 - May 24, 2018. Complete this form to receive your coupon! <a href="https://www.mohawkflooring.com/sale" target="_blank">Form Here</a></p>
+      </div>
+    </div>
   </div>
 </section>

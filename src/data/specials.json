@@ -1,8 +1,22 @@
 {
-  "specials": {
-        "specialtwoimg": "../assets/img/hd_energy_saving_event.jpg",
-        "specialtwoheader": "Energy Smart Style",
-        "specialtwosub": "2018 Savings Event",
-        "specialtwodes": "Rebates starting at $100 on qualifying purchases between January 13th & April 9th 2018"
- }
+  "hdspecials": [
+    {
+      "img": "../assets/img/hd_celebration_2018.jpg",
+      "header": "Celebration of Light Savings Event",
+      "subheader": "Hunter Douglas Window Fashions",
+      "description": "he longer days of spring are the perfect time to promote the light-transforming benefits of Luminette Privacy Sheers and Silhoutte Window Shadings during the Celebration of Light Savings Event. These exquisite window fashions allow your customers to soften, shift and refine the light that enters their homes into beautiful illumination.",
+      "descriptiontwo": "Save $100 Rebate with the purchase of 1 Luminette Privacy Sheer. Plus $100 rebate for each additional unit.",
+      "descriptionthree": "Save $100 Rebate with the purchases of 2 Silhoutte Window Shadings Plus $50 Rebate for each additional unit.",
+      "descriptionfour": "Valid for purchases made 4/14/18 - 6/25/18. The Alustra Collection products from applicable products lines are included.",
+      "descriptionfive": "See the store for more details!"
+    }
+  ],
+  "otherspecials": [
+    {
+      "img": "../assets/img/armstrong_spring_2018.jpg",
+      "header": "Floor is Yours Flooring Rebate",
+      "subheader": "Armstrong Flooring",
+      "description": "Customers who purchase qualifying Armstrong Flooring products during March 19th - May  15th will qualify for a 10% rebate up to $500. Offer Valid March 19th - May15th 2018"
+    }
+  ]
 }
